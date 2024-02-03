@@ -1,0 +1,26 @@
+import java.util.*;
+class day3
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		int arr[][]=new int[row][col];
+		int i,j;
+		for(i=0;i<row;i++)
+		{
+			for(j=0;j<row;j++)
+				arr[i][j]=sc.nextInt();
+			}
+		}
+		System.out.println("print array elements");
+		for(i=0;i<3;i++)
+		{
+			for(j=0;j<3;j++)
+			{
+				System.out.print(" "+arr[i][j]);
+			}
+			System.out.println();
+		}
+	}
+}
+		
